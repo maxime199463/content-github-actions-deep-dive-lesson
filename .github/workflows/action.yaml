@@ -3,8 +3,7 @@ name: deploy my lambda function
 on: 
   push:
     branches: 
-       - main
-       
+       - main       
  jobs:
    build: 
      run-on: ubuntu-latest
